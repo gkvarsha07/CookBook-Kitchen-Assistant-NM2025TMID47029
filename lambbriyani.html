@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lamb Biryani - Cookbook</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    /* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2f855a;
+  font-style: italic;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #2f855a;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.search-box input::placeholder {
+  color: #888;
+  font-size: 14px;
+}
+
+.search-box button {
+  background: #2f855a;
+  color: #fff;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+    /* Hero Section */
+    .hero {
+      background: #fff;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .hero img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .hero-content {
+      padding: 20px;
+    }
+    .hero-content h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .tags span {
+      display: inline-block;
+      background: #eee;
+      color: #333;
+      padding: 5px 10px;
+      border-radius: 20px;
+      margin-right: 5px;
+      font-size: 14px;
+    }
+
+   /* Recipe Section */
+.recipe {
+  display: flex;
+  gap: 30px; /* more space between ingredients & instructions */
+  margin-top: 20px;
+}
+
+.ingredients, .instructions {
+  flex: 1;
+  background: #fafafa;
+  padding: 20px;  /* extra padding inside */
+  border-radius: 6px;
+  line-height: 1.6; /* more line spacing */
+}
+
+.ingredients ul li,
+.instructions ol li {
+  margin-bottom: 8px; /* spacing between list items */
+}
+
+
+    /* Video */
+    .video {
+      background: #fff;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 1000px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .video iframe {
+      width: 100%;
+      height: 400px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+   <header>
+    <div class="logo">SB Recipes...</div>
+    <nav>
+      <a href="cookbook.html">Home</a>
+      <a href="#">Popular</a>
+      <div class="search-box">
+        <input type="text" placeholder="Type something..">
+        <button>Search</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <img src="https://i.pinimg.com/736x/3c/a4/a5/3ca4a5fc3619d07a4e19ac5c2cb11202.jpg" alt="Lamb Biryani">
+    <div class="hero-content">
+      <h2>Lamb Biryani</h2>
+      <div class="tags">
+        <span>Indian</span>
+        <span>Lamb</span>
+        <span>Spicy</span>
+      </div>
+
+      <div class="recipe">
+        <!-- Ingredients -->
+        <div class="ingredients">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>500g Lamb (mutton)</li>
+            <li>2 cups Basmati rice</li>
+            <li>2 Onions (sliced)</li>
+            <li>2 Tomatoes (chopped)</li>
+            <li>1 cup Yogurt</li>
+            <li>2 tsp Red chili powder</li>
+            <li>1 tbsp Biryani masala</li>
+            <li>Whole spices (bay leaf, cinnamon, cloves, cardamom)</li>
+            <li>Fresh coriander & mint leaves</li>
+            <li>Ghee / Oil</li>
+          </ul>
+        </div>
+
+        <!-- Instructions -->
+        <div class="instructions">
+          <h3>Instructions</h3>
+          <ol>
+            <li>Marinate lamb with yogurt, chili powder, turmeric, salt, and biryani masala. Rest for 1 hour.</li>
+            <li>Fry onions until golden brown. Add tomatoes & spices. Cook well.</li>
+            <li>Add marinated lamb and cook until tender.</li>
+            <li>Boil rice until 70% cooked. Drain water.</li>
+            <li>Layer lamb masala and rice in a pot. Add fried onions, mint, and coriander.</li>
+            <li>Cover tightly and cook on low flame for 20–25 minutes.</li>
+            <li>Serve hot with raita and lemon wedges.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video Tutorial -->
+  <div class="video">
+    <h3>Video Tutorial</h3>
+    <iframe src="https://www.youtube.com/embed/alvH-4d7VSE" title="Mutton Biryani Recipe" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+</body>
+</html>

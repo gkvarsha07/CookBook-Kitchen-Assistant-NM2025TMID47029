@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thalappakatti Chicken Biryani - Cookbook</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    /* Navbar */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #2f855a;
+      font-style: italic;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #2f855a;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      padding: 5px 10px;
+    }
+
+    .search-box input {
+      border: none;
+      outline: none;
+      padding: 5px;
+    }
+
+    .search-box input::placeholder {
+      color: #888;
+      font-size: 14px;
+    }
+
+    .search-box button {
+      background: #2f855a;
+      color: #fff;
+      border: none;
+      padding: 5px 12px;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: #fff;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .hero img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .hero-content {
+      padding: 20px;
+    }
+    .hero-content h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .tags span {
+      display: inline-block;
+      background: #eee;
+      color: #333;
+      padding: 5px 10px;
+      border-radius: 20px;
+      margin-right: 5px;
+      font-size: 14px;
+    }
+
+    /* Recipe Section */
+    .recipe {
+      display: flex;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .ingredients, .instructions {
+      flex: 1;
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 6px;
+      line-height: 1.6;
+    }
+
+    .ingredients ul li,
+    .instructions ol li {
+      margin-bottom: 8px;
+    }
+
+    /* Video */
+    .video {
+      background: #fff;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 1000px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .video iframe {
+      width: 100%;
+      height: 400px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="logo">SB Recipes...</div>
+    <nav>
+      <a href="C:\Users\sathy\OneDrive\Desktop\cookbook/cookbook.html">Home</a>
+      <a href="#">Popular</a>
+      <div class="search-box">
+        <input type="text" placeholder="Type something..">
+        <button>Search</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <img src="https://i.ytimg.com/vi/TRw8lPKXofU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDSfAbBAX281Osb3TECnfzQyuF89w" alt="Thalappakatti Chicken Biryani">
+    <div class="hero-content">
+      <h2>Thalappakatti Chicken Biryani</h2>
+      <div class="tags">
+        <span>Indian</span>
+        <span>Spicy</span>
+        <span>Biryani</span>
+      </div>
+
+      <div class="recipe">
+        <!-- Ingredients -->
+       <div class="ingredients">
+  <h3>Ingredients</h3>
+  <ul>
+    <li>Chicken – ½ Kg</li>
+    <li>Seeraga samba rice – 2 cups (Approx. 400 grams, soaked 15 mins)</li>
+    <li>Coriander seeds – 2 tsp</li>
+    <li>Pepper – ½ tsp</li>
+    <li>Fennel seeds – ½ tsp</li>
+    <li>Cumin seeds – 1 tsp</li>
+    <li>Cinnamon stick – 6 to 8</li>
+    <li>Bay leaf – 1</li>
+    <li>Mace – 1</li>
+    <li>Cloves – 10</li>
+    <li>Cardamom – 3</li>
+    <li>Star anise – 1</li>
+    <li>Kalpasi – a small piece</li>
+    <li>Cashews – a few</li>
+    <li>Shallots – 200 grams</li>
+    <li>Garlic cloves – 10 to 12</li>
+    <li>Ginger – 2 inch</li>
+    <li>Coriander leaves – handful</li>
+    <li>Mint leaves – handful</li>
+    <li>Green chili – 4</li>
+    <li>Oil – 3 tbsp</li>
+    <li>Ghee – 2 tbsp</li>
+    <li>Grinded onion paste – prepared from shallots, garlic, ginger, herbs</li>
+    <li>Turmeric powder – ½ tsp</li>
+    <li>Chilli powder – 1 tsp</li>
+    <li>Curd – 4 tbsp</li>
+    <li>Water – 4 cups</li>
+    <li>Lemon juice – 1 tsp</li>
+    <li>Salt – as needed</li>
+  </ul>
+</div>
+
+
+        <!-- Instructions -->
+        <div class="instructions">
+  <h3>Instructions</h3>
+  <ol>
+    <li>Grind coriander seeds, pepper, fennel, cumin, cinnamon, bay leaf, mace, cloves, cardamom, star anise, kalpasi, and cashews into a fine spice powder.</li>
+    <li>Coarsely grind shallots, garlic, ginger, coriander, mint, and 4 green chilies into a paste.</li>
+    <li>Heat 3 tbsp oil + 2 tbsp ghee, sauté onion paste, add spice powder, turmeric, chili powder, 4 tbsp curd, chicken, and salt. Cook 3 mins, add 1 cup water, simmer 10 mins.</li>
+    <li>Add 3 cups water, salt, 1 tsp lemon juice, mint leaves, and 2 cups soaked seeraga samba rice. Boil, cover, cook low flame 20 mins, seal with weight.</li>
+  </ol>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Video Tutorial -->
+  <div class="video">
+    <h3>Video Tutorial</h3>
+    <iframe src="https://www.youtube.com/embed/TRw8lPKXofU" title="Thalappakatti Chicken Biryani Recipe" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+</body>
+</html>

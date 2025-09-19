@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chicken Curry - Cookbook</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    /* Navbar */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #2f855a;
+      font-style: italic;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #2f855a;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      padding: 5px 10px;
+    }
+
+    .search-box input {
+      border: none;
+      outline: none;
+      padding: 5px;
+    }
+
+    .search-box input::placeholder {
+      color: #888;
+      font-size: 14px;
+    }
+
+    .search-box button {
+      background: #2f855a;
+      color: #fff;
+      border: none;
+      padding: 5px 12px;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: #fff;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .hero img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .hero-content {
+      padding: 20px;
+    }
+    .hero-content h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .tags span {
+      display: inline-block;
+      background: #eee;
+      color: #333;
+      padding: 5px 10px;
+      border-radius: 20px;
+      margin-right: 5px;
+      font-size: 14px;
+    }
+
+    /* Recipe Section */
+    .recipe {
+      display: flex;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .ingredients, .instructions {
+      flex: 1;
+      background: #fafafa;
+      padding: 20px;
+      border-radius: 6px;
+      line-height: 1.6;
+    }
+
+    .ingredients ul li,
+    .instructions ol li {
+      margin-bottom: 8px;
+    }
+
+    /* Video */
+    .video {
+      background: #fff;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 1000px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .video iframe {
+      width: 100%;
+      height: 400px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="logo">SB Recipes...</div>
+    <nav>
+      <a href="C:\Users\sathy\OneDrive\Desktop\cookbook/cookbook.html">Home</a>
+      <a href="#">Popular</a>
+      <div class="search-box">
+        <input type="text" placeholder="Type something..">
+        <button>Search</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/chicken-curry-recipe.jpg" alt="Chicken Curry">
+    <div class="hero-content">
+      <h2>Chicken Curry</h2>
+      <div class="tags">
+        <span>Indian</span>
+        <span>Spicy</span>
+        <span>Traditional</span>
+      </div>
+
+      <div class="recipe">
+        <!-- Ingredients -->
+        <div class="ingredients">
+          <h3>Ingredients</h3>
+          <ul>
+            <li>Chicken Breast (Grained) - 3 Nos</li>
+            <li>Chilli Powder - 2 Tbsp</li>
+            <li>Coriander Powder - 1 Tbsp</li>
+            <li>Garam Masala - 1 Tsp</li>
+            <li>Cinnamon Powder - 1/2 Tsp</li>
+            <li>Ginger Garlic Paste - 1/2 Tsp</li>
+            <li>Salt - As Needed</li>
+            <li>Oil - 2-3 Tbsp</li>
+            <li>Cinnamon Stick - 2 Inch</li>
+            <li>Star Anise - 1 No</li>
+            <li>Cloves - 4-5 Nos</li>
+            <li>Green Cardamom - 3 Nos</li>
+            <li>Onion (Sliced) - 3 Nos</li>
+            <li>Chilli Powder - 1 Tbsp</li>
+            <li>Garam Masala - 1 Tsp</li>
+            <li>Curd (Whisked) - 250 Ml</li>
+          </ul>
+        </div>
+
+        <!-- Instructions -->
+        <div class="instructions">
+          <h3>Instructions</h3>
+          <ol>
+            <li>Heat oil in a pan. Add cinnamon stick, star anise, cloves, and cardamoms. Sauté for 30 seconds until aromatic.</li>
+            <li>Add sliced onions and sauté until golden brown.</li>
+            <li>Add ginger garlic paste and sauté for 1 minute.</li>
+            <li>Add chilli powder, cinnamon powder, garam masala, and salt. Mix well.</li>
+            <li>Add chicken breast pieces and cook for 5-6 minutes until lightly browned.</li>
+            <li>Add whisked curd and cook on medium heat for 10-12 minutes until chicken is tender and sauce thickens.</li>
+            <li>Garnish with fresh coriander and serve hot with rice or roti.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video Tutorial -->
+  <div class="video">
+    <h3>Video Tutorial</h3>
+    <iframe src="https://www.youtube.com/embed/Rt16GSDwplo" title="Chicken Curry Recipe" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+</body>
+</html>
