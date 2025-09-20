@@ -1,0 +1,76 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Popular Dishes - Cookbook</title>
+  <link rel="stylesheet" href="popular.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="logo">SB Recipes...</div>
+    <nav>
+      <a href="cookbook.html">Home</a>
+      <a href="popular.html">Popular</a>
+      <a href="chicken.html">Chicken</a>
+      <a href="beef.html">Beef</a>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search dishes..">
+        <button onclick="searchRecipes()">Search</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <div class="hero">
+    <h1>Most Popular Dishes</h1>
+  </div>
+
+  <!-- Popular Dish Cards -->
+  <div class="recipes" id="recipeList">
+    <!-- Chicken Recipes -->
+    <div class="card">
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixBzD1vZRp-azDaPaB52M_LVh_c8D2j37hYMxPCrkIkNCjBzilg_q6ELVJx41X7nfOPkS-PAKk6ZWeqvhz5MeKBn7UPeUHDvTiqdx2wDcLFP8b6W3dKT8MsymzxlCdU-xNDXX-YcJ_558/s2048/Malabar+chicken+curry+16.JPG" alt="Chicken Curry">
+      <div class="card-content">
+        <h3>Chicken Curry</h3>
+        <p>Aromatic Indian chicken curry with spices.</p>
+        <a href="chickencurry.html">View Recipe</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/chicken-biryani-recipe.jpg" alt="Chicken Biryani">
+      <div class="card-content">
+        <h3>Chicken Biryani</h3>
+        <p>Fragrant rice layered with spiced chicken.</p>
+        <a href="chickenbiryani.html">View Recipe</a>
+      </div>
+    </div>
+
+    <!-- Beef Recipes -->
+    <div class="card">
+      <img src="https://www.talesfromthekitchenshed.com/sj-desford/uploads/2023/10/Nadan-Beef-Curry-Kerala-Style-01.jpg" alt="Beef Curry">
+      <div class="card-content">
+        <h3>Beef Curry</h3>
+        <p>A spicy and rich South Indian style beef curry.</p>
+        <a href="beefcurry.html">View Recipe</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://i.ytimg.com/vi/TanA43G4YB0/hq720.jpg" alt="Beef Biryani">
+      <div class="card-content">
+        <h3>Beef Biryani</h3>
+        <p>Flavorful rice layered with tender beef and spices.</p>
+        <a href="beefbiryani.html">View Recipe</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript for Search -->
+  <script src="popular.js"></script>
+
+</body>
+</html>
